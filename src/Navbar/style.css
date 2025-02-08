@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarWrapper {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(82, 82, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+};
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+};
+
+.container a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.active-link {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
